@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Journey",
+    "projects": "Projects",
+    "upcomingProjects": "Upcoming Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "availability": "Open to internship opportunities",
+    "greeting": "Hi, I'm",
+    "role": "Full-Stack Developer",
+    "headline": "I turn ideas into web applications.",
+    "description": "As a third-year Software Engineering student, I build modern web applications, REST APIs and solutions designed to address real-world needs.",
+    "projects": "View my projects",
+    "cv": "Download my résumé",
+    "github": "View my GitHub",
+    "photoAlt": "Professional portrait of Fenokely",
+    "internshipDuration": "Internship duration: 6 months",
+    "internshipAvailability": "Available from 21 December 2026"
+  },
+  "about": {
+    "eyebrow": "01 / ABOUT",
+    "title": "A developer passionate about building useful solutions.",
+    "paragraph1": "I am a third-year Computer Science student specializing in Software Engineering at ESMIA Innovation. I develop web applications and REST APIs using modern technologies.",
+    "paragraph2": "Through my projects, I have gained experience with React, Spring Boot, FastAPI, Django and PostgreSQL. I am particularly interested in software architecture, API design and code quality.",
+    "paragraph3": "I am seeking a six-month internship to contribute to real-world projects, strengthen my skills and grow within a development team.",
+    "education": "Education",
+    "educationValue": "Third-year Software Engineering",
+    "location": "Location",
+    "locationValue": "Madagascar, Antananarivo 101, Mahazo",
+    "opportunity": "Seeking",
+    "opportunityValue": "Six-month internship"
+  },
+  "skills": {
+    "eyebrow": "02 / SKILLS",
+    "title": "The technologies I use to build my projects.",
+    "description": "A collection of languages, frameworks and tools I use to develop web applications and REST APIs.",
+    "categories": {
+      "languages": "Languages",
+      "frameworks": "Frameworks and libraries",
+      "databases": "Databases",
+      "tools": "Tools and environment"
+    }
+  },
+  "projects": {
+    "eyebrow": "03 / PROJECTS",
+    "title": "A selection of projects I have developed.",
+    "description": "Applications designed to solve real-world problems, from data modeling to user interface and REST API development.",
+    "github": "View source code",
+    "demo": "Live demo",
+    "items": {
+      "electricity": {
+        "title": "Electricity Outage Management and Prediction",
+        "description": "A web platform for managing, reporting and predicting electricity outages in Madagascar. Development of a REST API with 72 endpoints, including analytics, notifications and prediction modules."
+      },
+      "textile": {
+        "title": "Textile Order Management",
+        "description": "An application for managing textile orders and production workflows, tracking cutting, sewing and finishing stages, managing statuses and providing REST APIs."
+      },
+      "parking": {
+        "title": "Parking Management System",
+        "description": "An application for managing parking spaces, vehicles, reservations and payments, including availability tracking and a dashboard."
+      },
+      "students": {
+        "title": "Student and Course Management",
+        "description": "A Django web application for managing students and courses, featuring CRUD operations, forms and a responsive interface."
+      }
+    }
+  },
+  "projectDetails": {
+    "textile": {
+      "description": "A web application for managing orders and the production workflow of a textile company. It centralizes orders and tracks their progress through to delivery.",
+      "objectives": "Centralize order management, organize production stages and improve delivery deadline tracking.",
+      "features": {
+        "orders": "Management of customer orders and their items.",
+        "production": "Organization of production stages: cutting, sewing and finishing.",
+        "tracking": "Tracking of order statuses and production progress.",
+        "users": "User management and assignment of responsibilities."
+      },
+      "screenshots": {
+        "dashboard": "Main application dashboard.",
+        "orders": "Order management interface.",
+        "production": "Production stages tracking interface.",
+        "dashboardDescription": "Overview of business activities and key indicators.",
+        "ordersDescription": "View registered orders and monitor their status.",
+        "productionDescription": "Track the progress of the different production stages.",
+        "loginDescription": "Interface allowing users to log in to the platform according to their roles.",
+        "administrationDescription": "Administration area for managing users and platform access.",
+        "clientDescription": "Customer area for viewing orders and tracking their progress.",
+        "notificationDescription": "Notifications informing users about events related to their orders.",
+        "orderManagerDescription": "Interface for the manager to view and manage customer orders.",
+        "productionTrackingDescription": "Monitor the progress of production stages as a manager.",
+        "operatorTaskDescription": "Operator area for viewing and processing assigned production tasks."
+      }
+    },
+    "electricity": {
+      "description": "A web platform for reporting, managing and analyzing electricity outages in Madagascar, with data visualization and prediction features.",
+      "objectives": "Improve electricity outage monitoring, centralize incident reports and use available data to generate analytics and predictions.",
+      "features": {
+        "reporting": "Reporting electricity outages.",
+        "management": "Management and monitoring of reported incidents.",
+        "prediction": "Prediction of electricity outages based on available data.",
+        "statistics": "Visualization of statistics and outage data through an interactive map."
+      },
+      "screenshots": {
+        "dashboard": "Main platform dashboard.",
+        "map": "Interactive map displaying electricity outages.",
+        "management": "Interface for managing reported outages.",
+        "predictions": "Electricity outage prediction interface.",
+        "administration": "Platform administration interface.",
+        "login": "User login page.",
+        "dashboardDescription": "Overview of outage reports, power cuts, and key electricity network statistics.",
+        "mapDescription": "Geographical location of power outages to visualize the affected areas.",
+        "managementDescription": "Interface allowing the network manager to review, approve, or reject outage reports.",
+        "predictionsDescription": "Presentation of prediction results to anticipate potential power outages.",
+        "administrationDescription": "Administration area for managing users and platform access.",
+        "loginDescription": "Authentication interface allowing users to access their workspace according to their role."
+      }
+    },
+    "parking": {
+      "description": "A web application for managing a parking facility, including parking spaces, reservations, customers and financial operations.",
+      "objectives": "Centralize parking management, monitor space availability and simplify reservation and financial operations.",
+      "features": {
+        "places": "Management of parking spaces and their availability.",
+        "reservations": "Reservation management and tracking.",
+        "finance": "Monitoring of financial operations.",
+        "clients": "Customer information management."
+      },
+      "screenshots": {
+        "places": "Parking space management interface.",
+        "reservations": "Reservation management interface.",
+        "finance": "Financial monitoring interface.",
+        "clients": "Customer management interface.",
+        "placesDescription": "View parking spaces with their numbers, zones, and availability status.",
+        "reservationsDescription": "View and manage customers' parking reservations.",
+        "financeDescription": "Monitor payments and view financial information related to parking sessions.",
+        "clientsDescription": "View and manage customer information and their vehicles."
+      }
+    },
+    "students": {
+      "description": "A Django web application for managing students, their information and common student administration operations.",
+      "objectives": "Simplify student record management and facilitate the viewing, creation and modification of student information.",
+      "features": {
+        "list": "Viewing the list of registered students.",
+        "creation": "Adding a new student.",
+        "details": "Viewing detailed student information.",
+        "editing": "Updating student information."
+      },
+      "screenshots": {
+        "list": "List of registered students.",
+        "creation": "Student creation form.",
+        "details": "Student details page.",
+        "editing": "Student editing form.",
+        "listDescription": "Display of registered students and their main information.",
+        "creationDescription": "Form for registering a new student and uploading a profile picture.",
+        "detailsDescription": "View detailed student information, including associated courses.",
+        "editingDescription": "Form for updating a student's personal and academic information."
+      }
+    }
+  },
+
+  "upcomingProjects": {
+    "subtitle": "My ambitions",
+    "title": "Upcoming Projects",
+    "description": "New ideas and challenges to explore to strengthen my skills and build practical solutions.",
+    "technologies": "Planned Technologies",
+    "features": "Planned Features",
+    "status": {
+      "planned": "Planned",
+      "in-progress": "In Preparation"
+    },
+    "items": {
+      "pharmacy": {
+        "title": "Pharmacy Management System",
+        "description": "A web application designed to centralize pharmacy operations, including medicines, procurement, sales, and inventory tracking.",
+        "features": {
+          "medicines": "Management of the medicine catalog and its categories.",
+          "inventory": "Inventory tracking by batch with expiration date monitoring.",
+          "fefo": "Implementation of the FEFO method to prioritize medicines with the nearest expiration dates.",
+          "sales": "Management of sales, payments, and product returns.",
+          "suppliers": "Management of suppliers, purchases, and procurement.",
+          "alerts": "Alerts for low stock levels and approaching expiration dates.",
+          "dashboard": "Dashboard displaying statistics, revenue, and transaction history."
+        }
+      },
+      "angular": {
+        "title": "Angular Interfaces for Textile and Parking Systems",
+        "description": "Modernization of the Textile and Parking application interfaces using Angular and TypeScript, leveraging existing Spring Boot REST APIs.",
+        "features": {
+          "textile": "New interface for managing textile orders and production tracking.",
+          "parking": "New interface for managing parking spaces, reservations, and parking sessions.",
+          "api": "Integration and consumption of existing Spring Boot REST APIs."
+        }
+      },
+      "fishFarming": {
+        "title": "Fish Farming Management SaaS",
+        "description": "A SaaS platform designed to manage multiple fish farming operations, monitor production cycles, and centralize technical and financial management.",
+        "features": {
+          "ponds": "Management of fish farms, ponds, and fish batches.",
+          "feeding": "Tracking of fish feeding, inventory, and technical activities.",
+          "growth": "Monitoring of fish growth, mortality, and harvesting.",
+          "waterQuality": "Water quality monitoring with alerts when parameters exceed configured thresholds.",
+          "finance": "Management of expenses, revenue, and production margins.",
+          "multiTenant": "Multi-farm management with data isolation and user management."
+        }
+      }
+    }
+  },
+
+  "experience": {
+    "eyebrow": "04 / JOURNEY",
+    "title": "My academic and technical journey.",
+    "description": "A progression built through my computer science education and the development of practical software projects.",
+    "items": {
+      "l3": {
+        "period": "2026 — Present",
+        "title": "Third Year — Software Engineering",
+        "organization": "ESMIA Innovation",
+        "description": "Advanced software development through web application and REST API design, database modeling and projects using React, Spring Boot, Django, FastAPI and PostgreSQL."
+      },
+      "l2": {
+        "period": "2025 — 2026",
+        "title": "Second Year — Computer Science",
+        "organization": "ESMIA Innovation",
+        "description": "Strengthened my foundations in programming, databases and web development through academic and collaborative software projects."
+      },
+      "l1": {
+        "period": "2024 — 2025",
+        "title": "First Year — Computer Science",
+        "organization": "ESMIA Innovation",
+        "description": "Built foundational knowledge in algorithms, programming, computer systems and core software development principles."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "05 / CONTACT",
+    "title": "Let's build something together.",
+    "description": "I am currently looking for a six-month software development internship. If my profile matches an opportunity or you would like to discuss a project, feel free to get in touch.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "sendEmail": "Send me an email"
+  },
+  "footer": {
+    "role": "Full-Stack Developer",
+    "rights": "All rights reserved.",
+    "builtWith": "Designed and developed with React and TypeScript."
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Parcours",
+    "projects": "Projets",
+    "upcomingProjects": "Projets à venir",
+    "contact": "Contact"
+  },
+  "hero": {
+    "availability": "Ouvert aux opportunités de stage",
+    "greeting": "Bonjour, je suis",
+    "role": "Développeur Full-Stack",
+    "headline": "Je transforme des idées en applications web.",
+    "description": "Étudiant en Licence 3 Génie Logiciel, je conçois des applications web modernes, des API REST et des solutions adaptées aux besoins réels.",
+    "projects": "Voir mes projets",
+    "cv": "Télécharger mon CV",
+    "github": "Voir mon GitHub",
+    "photoAlt": "Portrait professionnel de Fenokely",
+    "internshipDuration": "Durée du stage : 6 mois",
+    "internshipAvailability": "Disponible à partir de 21 décembre 2026"
+  },
+  "about": {
+    "eyebrow": "01 / À PROPOS",
+    "title": "Un développeur passionné par la création de solutions utiles.",
+    "paragraph1": "Étudiant en Licence 3 Informatique, parcours Génie Logiciel à ESMIA Innovation, je développe des applications web et des API REST en utilisant des technologies modernes.",
+    "paragraph2": "À travers mes projets, j'ai acquis de l'expérience avec React, Spring Boot, FastAPI, Django et PostgreSQL. Je m'intéresse particulièrement à l'architecture logicielle, à la conception d'API et à la qualité du code.",
+    "paragraph3": "Je recherche un stage de 6 mois afin de contribuer à des projets concrets, de renforcer mes compétences et d'évoluer au sein d'une équipe de développement.",
+    "education": "Formation",
+    "educationValue": "Licence 3 — Génie Logiciel",
+    "location": "Localisation",
+    "locationValue": "Madagascar, Antananarivo 101, Mahazo",
+    "opportunity": "Opportunité recherchée",
+    "opportunityValue": "Stage de 6 mois"
+  },
+  "skills": {
+    "eyebrow": "02 / COMPÉTENCES",
+    "title": "Les technologies que j'utilise pour construire mes projets.",
+    "description": "Un ensemble de langages, frameworks et outils que j'utilise pour concevoir des applications web et des API REST.",
+    "categories": {
+      "languages": "Langages",
+      "frameworks": "Frameworks et bibliothèques",
+      "databases": "Bases de données",
+      "tools": "Outils et environnement"
+    }
+  },
+  "projects": {
+    "eyebrow": "03 / PROJETS",
+    "title": "Une sélection de projets que j'ai développés.",
+    "description": "Des applications conçues pour répondre à des besoins concrets, de la modélisation des données au développement des interfaces et des API REST.",
+    "github": "Voir le code",
+    "demo": "Voir la démonstration",
+    "items": {
+      "electricity": {
+        "title": "Gestion et prédiction des coupures d'électricité",
+        "description": "Plateforme web de gestion, de signalement et de prédiction des coupures d'électricité à Madagascar. Développement d'une API REST comprenant 72 endpoints, avec des modules de statistiques, de notifications et de prédiction."
+      },
+      "textile": {
+        "title": "Gestion des commandes textiles",
+        "description": "Application de gestion des commandes et du processus de production textile, avec suivi des étapes de coupe, couture et finition, gestion des statuts et API REST."
+      },
+      "parking": {
+        "title": "Système de gestion de parking",
+        "description": "Application de gestion des places de stationnement, des véhicules, des réservations et des paiements, avec suivi des disponibilités et tableau de bord."
+      },
+      "students": {
+        "title": "Gestion des étudiants et des cours",
+        "description": "Application web Django permettant de gérer les étudiants et les cours, avec des opérations CRUD, des formulaires et une interface responsive."
+      }
+    }
+  },
+  "projectDetails": {
+    "textile": {
+      "description": "Application web de gestion des commandes et du processus de production d'une entreprise textile. Elle permet de centraliser les commandes et de suivre leur progression jusqu'à la livraison.",
+      "objectives": "Centraliser la gestion des commandes, organiser les étapes de production et améliorer le suivi des délais de livraison.",
+      "features": {
+        "orders": "Gestion des commandes clients et de leurs articles.",
+        "production": "Organisation des étapes de production : coupe, couture et finition.",
+        "tracking": "Suivi des statuts et de l'avancement des commandes.",
+        "users": "Gestion des utilisateurs et attribution des responsabilités."
+      },
+      "screenshots": {
+        "dashboard": "Tableau de bord principal de l'application",
+        "orders": "Interface de gestion des commandes",
+        "production": "Suivi des différentes étapes de production",
+        "login": "Interface de connexion des utilisateurs",
+        "administration": "Espace d'administration pour gérer les utilisateurs et les accès",
+        "client": "Espace client pour consulter ses commandes et leur état d'avancement",
+        "notification": "Interface de notifications pour informer les utilisateurs des événements liés aux commandes",
+        "orderManager": "Interface du responsable pour consulter et gérer les commandes des clients",
+        "productionTracking": "Suivi de l'avancement des étapes de production par le responsable",
+        "operatorTask": "Espace opérateur pour consulter et traiter les tâches de production qui lui sont attribuées",
+        "dashboardDescription": "Vue d'ensemble des activités et des principaux indicateurs de l'entreprise.",
+        "ordersDescription": "Consultation des commandes enregistrées et suivi de leur état.",
+        "productionDescription": "Suivi de l'avancement des différentes étapes de production.",
+        "loginDescription": "Interface permettant aux utilisateurs de se connecter à la plateforme selon leur rôle.",
+        "administrationDescription": "Espace d'administration permettant de gérer les utilisateurs et les accès à la plateforme.",
+        "clientDescription": "Espace client permettant de consulter ses commandes et leur état d'avancement.",
+        "notificationDescription": "Affichage des notifications informant les utilisateurs des événements liés aux commandes.",
+        "orderManagerDescription": "Interface du responsable pour consulter et gérer les commandes des clients.",
+        "productionTrackingDescription": "Suivi de l'avancement des étapes de production par le responsable.",
+        "operatorTaskDescription": "Espace opérateur permettant de consulter et de traiter les tâches de production qui lui sont attribuées."
+      }
+    },
+    "electricity": {
+      "description": "Plateforme web permettant de signaler, gérer et analyser les coupures d'électricité à Madagascar, avec des fonctionnalités de visualisation et de prédiction.",
+      "objectives": "Faciliter le suivi des coupures d'électricité, centraliser les signalements et exploiter les données pour produire des analyses et des prédictions.",
+      "features": {
+        "reporting": "Signalement des coupures d'électricité.",
+        "management": "Gestion et suivi des incidents signalés.",
+        "prediction": "Prédiction des coupures à partir des données disponibles.",
+        "statistics": "Visualisation des statistiques et des données sur une carte interactive."
+      },
+      "screenshots": {
+        "dashboard": "Tableau de bord général de la plateforme.",
+        "map": "Carte interactive de visualisation des coupures.",
+        "management": "Interface de gestion des coupures signalées.",
+        "predictions": "Interface de prédiction des coupures d'électricité.",
+        "administration": "Interface d'administration de la plateforme.", 
+        "login": "Page de connexion des utilisateurs.",
+        "dashboardDescription": "Vue d'ensemble des signalements, des coupures et des principales statistiques du réseau électrique.",
+        "mapDescription": "Localisation géographique des coupures d'électricité pour visualiser les zones concernées.",
+        "managementDescription": "Interface permettant au gestionnaire de consulter, valider ou rejeter les signalements de coupures.",
+        "predictionsDescription": "Présentation des résultats de prédiction afin d'anticiper les risques de coupures d'électricité.",
+        "administrationDescription": "Espace réservé à l'administration pour gérer les utilisateurs et les accès à la plateforme.",
+        "loginDescription": "Interface d'authentification permettant aux utilisateurs d'accéder à leur espace selon leur rôle."
+      }
+    },
+    "parking": {
+      "description": "Application web de gestion d'un parking permettant de gérer les places, les réservations, les clients et les opérations financières.",
+      "objectives": "Centraliser la gestion du parking, suivre la disponibilité des places et faciliter l'administration des réservations et des opérations financières.",
+      "features": {
+        "places": "Gestion des places de stationnement et de leur disponibilité.",
+        "reservations": "Gestion et suivi des réservations.",
+        "finance": "Suivi des opérations financières.",
+        "clients": "Gestion des informations des clients."
+      },
+      "screenshots": {
+        "places": "Interface de gestion des places de stationnement.",
+        "reservations": "Interface de gestion des réservations.",
+        "finance": "Interface de suivi financier.",
+        "clients": "Interface de gestion des clients.",
+        "placesDescription": "Visualisation des places de stationnement avec leur numéro, leur zone et leur état de disponibilité.",
+        "reservationsDescription": "Consultation et gestion des réservations de stationnement des clients.",
+        "financeDescription": "Suivi des paiements et consultation des informations financières liées aux stationnements.",
+        "clientsDescription": "Consultation et gestion des informations des clients et de leurs véhicules."
+      }
+    },
+    "students": {
+      "description": "Application web développée avec Django pour gérer les étudiants, leurs informations et les opérations courantes de gestion.",
+      "objectives": "Simplifier la gestion des dossiers étudiants et faciliter la consultation, la création et la modification des informations.",
+      "features": {
+        "list": "Consultation de la liste des étudiants.",
+        "creation": "Ajout d'un nouvel étudiant.",
+        "details": "Consultation des informations détaillées d'un étudiant.",
+        "editing": "Modification des informations d'un étudiant."
+      },
+      "screenshots": {
+        "list": "Liste des étudiants enregistrés.",
+        "creation": "Formulaire d'ajout d'un étudiant.",
+        "details": "Page détaillée d'un étudiant.",
+        "editing": "Formulaire de modification d'un étudiant.",
+        "listDescription": "Affichage de la liste des étudiants enregistrés avec leurs principales informations.",
+        "creationDescription": "Formulaire permettant d'enregistrer un nouvel étudiant et d'ajouter sa photo de profil.",
+        "detailsDescription": "Consultation des informations détaillées d'un étudiant, notamment ses cours associés.",
+        "editingDescription": "Formulaire permettant de modifier les informations personnelles et académiques d'un étudiant."
+      }
+    }
+  },
+
+  "upcomingProjects": {
+    "subtitle": "Mes ambitions",
+    "title": "Projets à venir",
+    "description": "De nouvelles idées et de nouveaux défis à explorer pour enrichir mes compétences et développer des solutions concrètes.",
+    "technologies": "Technologies envisagées",
+    "features": "Fonctionnalités prévues",
+    "status": {
+      "planned": "Planifié",
+      "in-progress": "En préparation"
+    },
+    "items": {
+      "pharmacy": {
+        "title": "Gestion de pharmacie",
+        "description": "Application web de gestion pharmaceutique permettant de centraliser les médicaments, les approvisionnements, les ventes et le suivi des stocks.",
+        "features": {
+          "medicines": "Gestion du catalogue des médicaments et de leurs catégories.",
+          "inventory": "Suivi des stocks par lots et contrôle des dates de péremption.",
+          "fefo": "Application de la méthode FEFO pour prioriser les médicaments proches de leur date de péremption.",
+          "sales": "Gestion des ventes, des paiements et des opérations de retour.",
+          "suppliers": "Gestion des fournisseurs, des achats et des approvisionnements.",
+          "alerts": "Alertes en cas de stock faible ou de péremption imminente.",
+          "dashboard": "Tableau de bord avec statistiques, recettes et historique des opérations."
+        }
+      },
+      "angular": {
+        "title": "Interfaces Angular pour Textile et Parking",
+        "description": "Modernisation des interfaces des applications Textile et Parking avec Angular et TypeScript, en exploitant les API REST existantes développées avec Spring Boot.",
+        "features": {
+          "textile": "Nouvelle interface de gestion des commandes et du suivi de production textile.",
+          "parking": "Nouvelle interface de gestion des places, des réservations et des stationnements.",
+          "api": "Intégration des API REST Spring Boot et communication avec les backends existants."
+        }
+      },
+      "fishFarming": {
+        "title": "SaaS de gestion piscicole",
+        "description": "Plateforme SaaS permettant de gérer plusieurs exploitations piscicoles, de suivre leurs cycles de production et de centraliser la gestion technique et financière.",
+        "features": {
+          "ponds": "Gestion des exploitations, des bassins et des lots de poissons.",
+          "feeding": "Suivi de l'alimentation, des stocks et des activités techniques.",
+          "growth": "Suivi de la croissance, de la mortalité et des récoltes.",
+          "waterQuality": "Suivi des paramètres de qualité de l'eau et alertes en cas de dépassement des seuils.",
+          "finance": "Gestion des dépenses, des revenus et des marges de production.",
+          "multiTenant": "Gestion multi-exploitations avec isolation des données et gestion des utilisateurs."
+        }
+      }
+    }
+  },
+
+  "experience": {
+    "eyebrow": "04 / PARCOURS",
+    "title": "Mon parcours académique et technique.",
+    "description": "Une progression construite à travers ma formation en informatique et la réalisation de projets concrets.",
+    "items": {
+      "l3": {
+        "period": "2026 — Aujourd'hui",
+        "title": "Licence 3 — Génie Logiciel",
+        "organization": "ESMIA Innovation",
+        "description": "Approfondissement du développement logiciel à travers la conception d'applications web, d'API REST, la modélisation de bases de données et la réalisation de projets avec React, Spring Boot, Django, FastAPI et PostgreSQL."
+      },
+      "l2": {
+        "period": "2025 — 2026",
+        "title": "Licence 2 — Informatique",
+        "organization": "ESMIA Innovation",
+        "description": "Consolidation des fondamentaux de la programmation, des bases de données et du développement web, avec réalisation de projets académiques en équipe."
+      },
+      "l1": {
+        "period": "2024 — 2025",
+        "title": "Licence 1 — Informatique",
+        "organization": "ESMIA Innovation",
+        "description": "Acquisition des bases de l'algorithmique, de la programmation, des systèmes informatiques et des principes fondamentaux du développement logiciel."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "05 / CONTACT",
+    "title": "Construisons quelque chose ensemble.",
+    "description": "Je recherche actuellement un stage de 6 mois en développement logiciel. Si mon profil correspond à une opportunité ou si vous souhaitez échanger à propos d'un projet, n'hésitez pas à me contacter.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "sendEmail": "M'envoyer un email"
+  },
+  "footer": {
+    "role": "Développeur Full-Stack",
+    "rights": "Tous droits réservés.",
+    "builtWith": "Conçu et développé avec React et TypeScript."
+  }
+}
